@@ -1,5 +1,5 @@
-height = print("Enter your height in cms: ")
-credits = print("Enter the number of credits you have: ")
+height = int(input("Enter your height in cms: "))
+credits = int(input("Enter the number of credits you have: "))
 
 if height >= 137 and credits >= 10:
     print("Enjoy the ride!")
