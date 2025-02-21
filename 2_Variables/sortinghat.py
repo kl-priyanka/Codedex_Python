@@ -42,4 +42,13 @@ print("Ravenclaw: ", Ravenclaw)
 print("Hufflepuff: ", Hufflepuff)
 print("Slytherin: ", Slytherin)
 
-#print("Sorting Hat has chosen: ", max(Gryffindor, Ravenclaw, Hufflepuff, Slytherin))
+max = max(Gryffindor, Ravenclaw, Hufflepuff, Slytherin)
+
+if max == Gryffindor:
+    print("Sorting Hat has chosen: Gryffindor")
+elif max == Ravenclaw:
+    print("Sorting Hat has chosen: Ravenclaw")
+elif max == Hufflepuff:
+    print("Sorting Hat has chosen: Hufflepuff")
+else:
+    print("Sorting Hat has chosen: Slytherin")
